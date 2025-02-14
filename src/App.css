@@ -25,6 +25,7 @@ body {
 }
 
 .sneezing-size {
+  background-color: #e19bd067;
   margin-top: -80px;
 }
 
@@ -62,7 +63,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 50px;
-  background-color: inherit;
+  background-color: rgba(209, 89, 109, 0.345);
 }
 
 .reset:hover {
