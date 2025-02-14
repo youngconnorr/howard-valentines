@@ -1,0 +1,72 @@
+body {
+  background-image: url("./assets/us.jpg"); /* Change to your image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-position: top; /* Centers the image */
+  background-size: cover; /* Scales the image to cover the whole screen */
+}
+
+.nose {
+  position: absolute;
+  width: 45px;
+  height: 30px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.howard {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.howard-size {
+  width: 350px;
+}
+
+.sneezing-size {
+  margin-top: -80px;
+}
+
+.dog-phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-sneeze {
+  display: flex;
+  overflow-wrap: break-word; /* Alternative property for wrapping */
+  max-width: 80%;
+  text-align: center;
+}
+
+.A {
+  overflow-wrap: break-word;
+  /* Alternative property for wrapping */
+  font-size: 2em;
+  max-width: 100%; /* Prevents overflowing parent */
+  margin-left: -10px;
+}
+
+.reset-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  border: 1px solid rgb(209, 89, 109);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+  background-color: inherit;
+}
+
+.reset:hover {
+  background-color: rgb(209, 89, 109);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
